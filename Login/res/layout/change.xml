@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp" />
+
+    <EditText
+        android:id="@+id/editTextOldPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Insert Old Password"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:ems="10" >
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextNewPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Insert New Password"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="5dp"
+        android:ems="10" />
+
+
+
+
+
+    <Button
+        android:id="@+id/chagePasswordButton"
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:text=" Change Password "
+        android:layout_marginTop="95dp"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/image"
+        />
+
+
+
+
+</RelativeLayout>
